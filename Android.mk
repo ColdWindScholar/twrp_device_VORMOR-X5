@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),VORMOR-X5)
+ifeq ($(TARGET_DEVICE),VORMOR_X5)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
