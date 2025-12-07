@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from VORMOR-X5 device
-$(call inherit-product, device/rockchip/VORMOR-X5/device.mk)
+$(call inherit-product, device/XueZhiYou/VORMOR-X5/device.mk)
 
 PRODUCT_DEVICE := VORMOR-X5
 PRODUCT_NAME := omni_VORMOR-X5
