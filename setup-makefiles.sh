@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=VORMOR-X5
+DEVICE=VORMOR_X5
 VENDOR=rockchip
 
 # Load extract_utils and do some sanity checks
