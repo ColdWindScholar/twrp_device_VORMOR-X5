@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_VORMOR-X5.mk
+    $(LOCAL_DIR)/omni_VORMOR_X5.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_VORMOR-X5-user \
-    omni_VORMOR-X5-userdebug \
-    omni_VORMOR-X5-eng
+    omni_VORMOR_X5-user \
+    omni_VORMOR_X5-userdebug \
+    omni_VORMOR_X5-eng
