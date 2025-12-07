@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/rockchip/VORMOR-X5
+LOCAL_PATH := device/XueZhiYou/VORMOR-X5
