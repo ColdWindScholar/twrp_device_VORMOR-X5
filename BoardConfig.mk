@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/XueZhiYou/VORMOR-X5
+DEVICE_PATH := device/XueZhiYou/VORMOR_X5
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -44,8 +44,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := VORMOR-X5_defconfig
-TARGET_KERNEL_SOURCE := kernel/rockchip/VORMOR-X5
+TARGET_KERNEL_CONFIG := VORMOR_X5_defconfig
+TARGET_KERNEL_SOURCE := kernel/rockchip/VORMOR_X5
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
